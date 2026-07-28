@@ -1,11 +1,7 @@
 :root {
-  --text: #2d3335;
-  --muted: #657174;
-  --line: #a9b9b8;
-  --ocean: #0b3342;
-  --accent: #2f7c82;
-  --accent-soft: #dce9e7;
-  --ivory: #f7f4ed;
+  --text: #171717;
+  --muted: #606060;
+  --line: #8a8a8a;
   --placeholder: #e9e9e9;
   --placeholder-dark: #b8b8b8;
   --page-width: 1140px;
@@ -22,7 +18,7 @@ html {
 body {
   margin: 0;
   color: var(--text);
-  background: var(--ivory);
+  background: #fff;
   font-family: Georgia, "Times New Roman", serif;
   font-size: 17px;
   line-height: 1.8;
@@ -50,14 +46,15 @@ a {
 }
 
 .site-header {
-  background: var(--ivory);
+  height: 62px;
+  background: #fff;
 }
 
 .nav-shell {
   display: flex;
-  width: min(calc(100% - 56px), var(--page-width));
-  height: 72px;
-  margin: 0 auto;
+  width: 100%;
+  height: 62px;
+  padding: 0 28px;
   align-items: center;
   justify-content: flex-end;
 }
@@ -77,11 +74,11 @@ a {
 
 .site-nav a:hover,
 .site-nav a.active {
-  color: var(--ocean);
+  color: #171717;
 }
 
 .home-main {
-  padding: 28px 30px 100px;
+  padding: 18px 30px 100px;
 }
 
 .home-grid {
@@ -140,44 +137,15 @@ a {
 }
 
 .home-copy h1 {
-  margin: 0 0 5px;
+  margin: 0 0 35px;
   font-size: clamp(38px, 4vw, 48px);
   font-weight: 700;
   line-height: 1.2;
   text-align: center;
 }
 
-.home-role {
-  margin-bottom: 30px !important;
-  color: var(--accent);
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 12px;
-  font-weight: 700;
-  letter-spacing: 0.13em;
-  text-align: center;
-  text-transform: uppercase;
-}
-
 .home-copy p {
   margin: 0 0 18px;
-}
-
-.research-keywords {
-  margin: 27px 0 !important;
-  padding: 13px 0;
-  border-top: 1px solid var(--accent-soft);
-  border-bottom: 1px solid var(--accent-soft);
-  color: var(--accent);
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 12px;
-  font-weight: 700;
-  letter-spacing: 0.045em;
-  line-height: 1.8;
-}
-
-.research-keywords span {
-  padding: 0 5px;
-  color: #92aeae;
 }
 
 .profile-links {
@@ -199,38 +167,11 @@ a {
 
 .research-banner {
   min-height: 338px;
-  position: relative;
-  color: #fff;
-  background:
-    linear-gradient(90deg, rgba(5, 34, 47, 0.72), rgba(5, 34, 47, 0.23)),
-    url("ocean-header.jpg") center 37% / cover no-repeat;
+  background: url("ocean-header-wide.jpg") center / cover no-repeat;
 }
 
 .research-banner .nav-shell {
-  width: min(calc(100% - 56px), var(--page-width));
-}
-
-.research-banner-copy {
-  width: min(calc(100% - 56px), var(--page-width));
-  margin: 51px auto 0;
-}
-
-.research-banner-copy p {
-  margin: 0 0 8px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 12px;
-  font-weight: 700;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-}
-
-.research-banner-copy h1 {
-  max-width: 700px;
-  margin: 0;
-  font-size: clamp(34px, 4.5vw, 49px);
-  font-weight: 400;
-  line-height: 1.12;
-  text-shadow: 0 2px 18px rgba(0, 20, 28, 0.24);
+  width: 100%;
 }
 
 .site-nav-dark a {
@@ -297,13 +238,8 @@ a {
   font-size: 19px;
   font-weight: 700;
   line-height: 1.45;
-  color: var(--accent);
-  text-decoration: none;
-}
-
-.paper-entry summary:hover .paper-title {
   text-decoration: underline;
-  text-underline-offset: 3px;
+  text-underline-offset: 2px;
 }
 
 .paper-authors,
@@ -319,8 +255,8 @@ a {
   width: 10px;
   height: 10px;
   justify-self: center;
-  border-right: 2px solid var(--accent);
-  border-bottom: 2px solid var(--accent);
+  border-right: 2px solid #777;
+  border-bottom: 2px solid #777;
   transform: rotate(45deg) translateY(-3px);
   transition: transform 180ms ease;
 }
@@ -371,13 +307,16 @@ a {
 
 @media (max-width: 730px) {
   .nav-shell {
-    width: calc(100% - 30px);
-    height: 62px;
+    height: 56px;
+    padding: 0 18px;
   }
 
   .site-nav {
-    gap: 16px;
-    font-size: 13px;
+    gap: 28px;
+  }
+
+  .site-header {
+    height: 56px;
   }
 
   .home-main {
@@ -398,22 +337,7 @@ a {
   }
 
   .research-banner {
-    min-height: 270px;
-    background-position: center 31%;
-  }
-
-  .research-banner .nav-shell,
-  .research-banner-copy {
-    width: calc(100% - 30px);
-  }
-
-  .research-banner-copy {
-    margin-top: 42px;
-  }
-
-  .research-banner-copy h1 {
-    max-width: 480px;
-    font-size: 33px;
+    min-height: 220px;
   }
 
   .research-main {
