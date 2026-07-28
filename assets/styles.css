@@ -159,10 +159,18 @@ a {
 }
 
 .home-copy h1 {
-  margin: 0 0 35px;
+  margin: 0 0 4px;
   font-size: clamp(32px, 3.4vw, 40px);
   font-weight: 700;
   line-height: 1.2;
+  text-align: center;
+}
+
+.chinese-name {
+  margin: 0 0 30px !important;
+  font-family: "Songti SC", "Noto Serif CJK SC", "Microsoft YaHei", serif;
+  font-size: 21px;
+  letter-spacing: 0.12em;
   text-align: center;
 }
 
