@@ -333,33 +333,16 @@ a {
   margin: 0;
 }
 
-.publication-entry {
-  padding: 34px 7px 22px;
-  border-bottom: 1px solid var(--line);
-}
-
-.publication-entry h3 {
-  margin: 0 0 7px;
-  font-size: 19px;
-  line-height: 1.45;
-  text-decoration: underline;
-  text-underline-offset: 2px;
-}
-
-.publication-entry p {
-  margin: 2px 0;
-}
-
-.publication-authors strong {
+.paper-authors strong {
   font-weight: 700;
 }
 
-.publication-venue {
-  color: #333;
+.publication-group h2 {
+  margin-bottom: 7px;
 }
 
 .author-note {
-  margin: 22px 7px 0;
+  margin: 0 7px 20px;
   font-size: 15px;
 }
 
