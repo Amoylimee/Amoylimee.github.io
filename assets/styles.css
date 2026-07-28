@@ -51,12 +51,29 @@ a {
 }
 
 .nav-shell {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 50;
   display: flex;
   width: 100%;
   height: 62px;
   padding: 0 28px;
   align-items: center;
   justify-content: flex-end;
+  transition:
+    background-color 160ms ease,
+    box-shadow 160ms ease;
+}
+
+.site-header .nav-shell,
+.nav-shell.is-scrolled {
+  background: rgba(255, 255, 255, 0.96);
+}
+
+.nav-shell.is-scrolled {
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.08);
+  backdrop-filter: blur(8px);
 }
 
 .site-nav {
@@ -179,8 +196,21 @@ a {
   color: #fff;
 }
 
+.research-banner .nav-shell.is-scrolled .site-nav-dark a {
+  color: #777;
+}
+
+.research-banner .nav-shell.is-scrolled .site-nav-dark a:hover,
+.research-banner .nav-shell.is-scrolled .site-nav-dark a.active {
+  color: #171717;
+}
+
 .site-nav-dark .nav-placeholder {
   color: rgba(255, 255, 255, 0.4);
+}
+
+.research-banner .nav-shell.is-scrolled .nav-placeholder {
+  color: #aaa;
 }
 
 .research-main {
