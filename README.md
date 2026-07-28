@@ -1,6 +1,6 @@
-# Jiajing Chen — Academic Website
+# Jeremy Jiajing Chen — Academic Website
 
-Source files for Jiajing Chen's personal academic website.
+Source files for Jeremy Jiajing Chen's personal academic website.
 
 The current version follows a deliberately simple academic-site structure:
 
