@@ -112,46 +112,10 @@ a {
   margin: 0 auto;
 }
 
-.portrait-placeholder {
-  position: relative;
-  display: grid;
-  min-height: 552px;
-  place-items: center;
-  overflow: hidden;
-  color: #707070;
-  background:
-    linear-gradient(135deg, transparent 49.8%, #d6d6d6 50%, transparent 50.2%),
-    linear-gradient(45deg, transparent 49.8%, #d6d6d6 50%, transparent 50.2%),
-    var(--placeholder);
-}
-
-.placeholder-initials {
-  display: grid;
-  width: 114px;
-  height: 114px;
-  place-items: center;
-  border: 2px solid var(--placeholder-dark);
-  border-radius: 50%;
-  color: #888;
-  background: rgba(255, 255, 255, 0.55);
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 34px;
-  letter-spacing: 0.08em;
-}
-
-.placeholder-caption {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 10px;
-  color: #777;
-  background: rgba(255, 255, 255, 0.78);
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 12px;
-  letter-spacing: 0.08em;
-  text-align: center;
-  text-transform: uppercase;
+.portrait-photo {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .home-copy {
@@ -352,9 +316,6 @@ a {
     gap: 30px;
   }
 
-  .portrait-placeholder {
-    min-height: 500px;
-  }
 }
 
 @media (max-width: 730px) {
@@ -379,10 +340,6 @@ a {
   .home-grid {
     grid-template-columns: 1fr;
     max-width: 560px;
-  }
-
-  .portrait-placeholder {
-    min-height: min(116vw, 590px);
   }
 
   .home-copy h1 {
