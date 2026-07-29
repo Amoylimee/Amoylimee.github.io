@@ -105,10 +105,10 @@ a {
 
 .home-grid {
   display: grid;
-  grid-template-columns: minmax(360px, 465px) minmax(440px, 640px);
+  grid-template-columns: minmax(320px, 400px) minmax(440px, 640px);
   gap: 38px;
   align-items: start;
-  width: min(100%, 1155px);
+  width: min(100%, 1078px);
   margin: 0 auto;
 }
 
@@ -312,7 +312,7 @@ a {
 
 @media (max-width: 900px) {
   .home-grid {
-    grid-template-columns: minmax(280px, 420px) minmax(360px, 1fr);
+    grid-template-columns: minmax(260px, 360px) minmax(360px, 1fr);
     gap: 30px;
   }
 
@@ -340,6 +340,11 @@ a {
   .home-grid {
     grid-template-columns: 1fr;
     max-width: 560px;
+  }
+
+  .portrait-photo {
+    width: min(100%, 300px);
+    margin: 0 auto;
   }
 
   .home-copy h1 {
