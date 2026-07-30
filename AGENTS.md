@@ -67,6 +67,28 @@ Apply these rules consistently:
 - Expanded descriptions should read like concise abstracts. They should explain the research context or question, the approach, the main result, and the contribution in clear prose.
 - Do not show inactive materials text such as `Paper · Code · Slides — placeholders`. Add paper, code, data, slides, or supplementary-material links only when real URLs are available.
 
+Place `Conferences` after `Publications`. Include confirmed oral and poster presentations, identify the presentation format, and separate the presentation title from the conference name with a comma.
+
+## Engagement Page Format
+
+Organise the Engagement page into these top-level sections:
+
+1. `Academic Service`
+2. `Professional & Policy Engagement`
+3. `Public Engagement`
+
+Do not add a generic page title, introductory subtitle, or empty section. Let the section headings make the page structure clear.
+
+Apply these rules consistently:
+
+- Use `Academic Service` for journal reviewing and other service to the academic community.
+- Use `Professional & Policy Engagement` for invited industry presentations, technical reports, professional meetings, and contributions connected to policy processes.
+- Use `Public Engagement` for op-eds, media contributions, and communication intended for general audiences.
+- State the contribution type clearly, such as `Invited presentation`, `Technical report`, or `Op-ed`.
+- Describe the contribution and its relevance concisely. Do not overstate the author’s role, institutional involvement, or policy impact.
+- Add links only to real reports, event pages, submissions, or published pieces.
+- Use a relevant, credible image when one is available. Prefer an image supplied by the website owner or an official asset from the organisation concerned, provide useful alt text, and verify that it works on desktop and mobile.
+
 ## Development Approach
 
 Keep the website lightweight and easy to maintain.
