@@ -380,6 +380,14 @@ a {
   border-top: 0;
 }
 
+.impact-entry-text-only {
+  grid-template-columns: 1fr;
+}
+
+.impact-entry-text-only .impact-copy {
+  max-width: 900px;
+}
+
 .impact-copy {
   min-width: 0;
 }
