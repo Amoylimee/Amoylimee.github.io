@@ -151,6 +151,29 @@ a {
   margin-bottom: 13px;
 }
 
+.home-update {
+  display: grid;
+  justify-content: end;
+  width: min(100%, 1078px);
+  margin: 54px auto 0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.home-update img {
+  display: block;
+  width: 58px;
+  height: 58px;
+  margin: 0 auto;
+}
+
+.home-update p {
+  margin: 7px 0 0;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.4;
+}
+
 .research-banner {
   min-height: 338px;
   background: url("ocean-header-wide.jpg") center / cover no-repeat;
