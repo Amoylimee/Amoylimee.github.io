@@ -331,6 +331,25 @@ a {
   color: var(--muted);
 }
 
+.engagement-group {
+  margin-bottom: 64px;
+}
+
+.engagement-group > h2 {
+  margin: 0 0 22px;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+.service-entry {
+  margin: 0 7px;
+}
+
+.public-engagement-group {
+  margin-bottom: 0;
+}
+
 .impact-entry {
   display: grid;
   grid-template-columns: minmax(0, 1.45fr) minmax(280px, 0.85fr);
@@ -467,6 +486,10 @@ a {
 
   .impact-copy {
     grid-row: 2;
+  }
+
+  .engagement-group {
+    margin-bottom: 52px;
   }
 
   .research-group h1,
