@@ -380,14 +380,6 @@ a {
   border-top: 0;
 }
 
-.impact-entry-text-only {
-  grid-template-columns: 1fr;
-}
-
-.impact-entry-text-only .impact-copy {
-  max-width: 900px;
-}
-
 .impact-copy {
   min-width: 0;
 }
@@ -446,6 +438,12 @@ a {
 
 .presentation-image {
   aspect-ratio: 3 / 2;
+}
+
+.blue-visby-image {
+  aspect-ratio: 1201 / 629;
+  object-fit: contain;
+  background: #112e59;
 }
 
 @media (max-width: 900px) {
