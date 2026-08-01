@@ -46,9 +46,11 @@ Use the name `Jeremy Jiajing Chen` consistently and `JJ` for the favicon or comp
 
 ## Research Page Format
 
-Keep the Research page organised into `Working Papers` followed by `Publications`.
+Keep the Research page organised into `Working Papers`, `Work in progress`, and
+`Publications`, in that order.
 
-Use the same expandable paper-entry structure for both sections. Each entry should contain:
+Use the same expandable paper-entry structure for `Working Papers` and
+`Publications`. Each entry should contain:
 
 1. Paper title
 2. Author line
@@ -62,6 +64,9 @@ Apply these rules consistently:
 - Working-paper author lines must begin with `With`, followed by the co-authors only, for example: `With A. Name, B. Name, and C. Name`.
 - If working-paper co-author names have not yet been confirmed, use a clearly marked neutral placeholder such as `With [co-author names]`; never invent names.
 - Working-paper status lines should be concise, such as `Working paper`, `Under review`, or `Manuscript in preparation`.
+- Use `Work in progress` for articles that are still being written. These entries
+  should show only the paper title and a confirmed `With ...` co-author line;
+  they should not include a status line, expandable panel, or description.
 - Publication author lines should follow the published author order. Bold `J. Chen` in every publication. Use superscript `*` for corresponding author and `#` for co-first author, with the author note directly below the `Publications` heading.
 - Publication status lines should give the journal, volume, article or page number, and year when available.
 - Expanded descriptions should read like concise abstracts. They should explain the research context or question, the approach, the main result, and the contribution in clear prose.
