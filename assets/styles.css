@@ -179,6 +179,18 @@ a {
   background: url("ocean-header-wide.jpg") center / cover no-repeat;
 }
 
+.cover-main {
+  display: block;
+}
+
+.cover-photo {
+  display: block;
+  width: 100%;
+  height: calc(100vh - 62px);
+  object-fit: cover;
+  object-position: center 62%;
+}
+
 .research-banner .nav-shell {
   width: 100%;
 }
@@ -519,6 +531,10 @@ a {
 
   .research-banner {
     min-height: 220px;
+  }
+
+  .cover-photo {
+    height: calc(100vh - 56px);
   }
 
   .research-main {

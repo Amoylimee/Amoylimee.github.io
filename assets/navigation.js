@@ -1,11 +1,11 @@
 const navShell = document.querySelector(".nav-shell");
-const researchBanner = document.querySelector(".research-banner");
+const banner = document.querySelector(".research-banner, .cover-banner");
 
 function updateNavigation() {
   if (!navShell) return;
 
-  const threshold = researchBanner
-    ? Math.max(0, researchBanner.offsetHeight - navShell.offsetHeight)
+  const threshold = banner
+    ? Math.max(0, banner.offsetHeight - navShell.offsetHeight)
     : 0;
 
   navShell.classList.toggle("is-scrolled", window.scrollY > threshold);
