@@ -228,10 +228,18 @@ a {
   font-size: clamp(31px, 3.2vw, 47px);
 }
 
-.ink-role {
-  max-width: 920px;
-  margin-top: 14px;
-  font-size: clamp(17px, 1.65vw, 25px);
+.ink-interests {
+  margin: 18px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.ink-interest {
+  font-size: clamp(15px, 1.35vw, 21px);
+}
+
+.ink-interest + .ink-interest {
+  margin-top: 2px;
 }
 
 .ink-char {
@@ -652,16 +660,15 @@ a {
   }
 
   .ink-intro {
-    padding: 0 18px 0 26vw;
+    padding: 0 18px 0 12vw;
   }
 
   .ink-welcome {
     margin-top: 5px;
   }
 
-  .ink-role {
-    max-width: 560px;
-    margin-top: 11px;
+  .ink-interests {
+    margin-top: 14px;
   }
 
   .cover-location {

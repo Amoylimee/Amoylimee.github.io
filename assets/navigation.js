@@ -35,8 +35,8 @@ if (inkLines.length) {
         span.className = "ink-char";
         span.textContent = character;
 
-        const writeDelay = 350 + characterIndex * 34 + lineIndex * 180;
-        const fadeDelay = 7200 + characterIndex * 11;
+        const writeDelay = 350 + characterIndex * 25 + lineIndex * 150;
+        const fadeDelay = 8000 + characterIndex * 8;
         span.style.setProperty("--write-delay", `${writeDelay}ms`);
         span.style.setProperty("--fade-delay", `${fadeDelay}ms`);
 
@@ -49,8 +49,8 @@ if (inkLines.length) {
         space.className = "ink-char ink-space";
         space.textContent = "\u00a0";
 
-        const writeDelay = 350 + characterIndex * 34 + lineIndex * 180;
-        const fadeDelay = 7200 + characterIndex * 11;
+        const writeDelay = 350 + characterIndex * 25 + lineIndex * 150;
+        const fadeDelay = 8000 + characterIndex * 8;
         space.style.setProperty("--write-delay", `${writeDelay}ms`);
         space.style.setProperty("--fade-delay", `${fadeDelay}ms`);
         wordSpan.appendChild(space);
