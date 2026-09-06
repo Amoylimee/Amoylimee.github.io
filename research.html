@@ -70,9 +70,8 @@
           <summary>
             <span class="paper-summary">
               <span class="paper-title">
-                AIS-based maritime emissions inventories under incomplete
-                vessel information: Evidence-conditioned vessel reconstruction
-                and dual-scale uncertainty propagation
+                Estimating shipping emissions with incomplete vessel
+                information: A dual-scale uncertainty framework
               </span>
               <span class="paper-authors">
                 With H. Lei, S. Jia, and A. K. H. Lau
@@ -84,23 +83,25 @@
           <div class="paper-details">
             <p>
               AIS-based emissions inventories require ship type and technical
-              specifications that are incomplete or unreliable for many
-              observed vessels. Dual-Scale Uncertainty-Aware Learning for Ship
-              Emissions Estimation (DUAL-SEE) reconstructs ship type and a
-              multivariate technical state from available evidence while
-              propagating vessel- and fleet-level uncertainty. Across 135
-              controlled evaluation cases, it reduced mean absolute inventory
-              error by approximately 34% relative to the best deterministic
-              completion method and raised mean coverage of central 90%
-              vessel-level intervals from 61.85% to 87.09%. In the 2025
-              AIS-visible fleet of the Pearl River Delta, unidentified vessels
-              represented 87.8% of the fleet and contributed an estimated
-              80.9%&ndash;83.8% of regional CO<sub>2</sub>, NO<sub>x</sub>, and
-              SO<sub>x</sub> emissions; under the prespecified composition
-              model, fleet-level uncertainty accounted for
-              96.60%&ndash;97.74% of total variance. DUAL-SEE therefore retains
-              vessels with incomplete information while quantifying the
-              inventory uncertainty their missing inputs create.
+              specifications that are missing or unreliable for many observed
+              vessels. Existing methods complete these fields one vessel at a
+              time, keep a single completed record, and assume a fixed fleet
+              composition. Dual-Scale Uncertainty-Aware Learning for Ship
+              Emissions Estimation (DUAL-SEE) instead recovers ship type and
+              technical specifications jointly from AIS behaviour and whatever
+              information a vessel already has, retains multiple plausible
+              profiles, and propagates uncertainty at both the vessel and the
+              fleet level. Across 135 cases spanning nine information-loss
+              scenarios, DUAL-SEE achieved a mean absolute inventory error of
+              7.21%, roughly 34% below the best deterministic benchmark, with
+              better interval quality than the sampling comparison. Applied to
+              the 2025 Pearl River Delta fleet, vessels with incomplete
+              information made up 87.8% of AIS-visible traffic and contributed
+              an estimated 80.9%&ndash;83.8% of regional emissions, while
+              fleet-level uncertainty accounted for 96.60%&ndash;97.74% of the
+              variance in regional totals&mdash;showing that fleet composition,
+              rather than individual vessel ambiguity, dominates inventory
+              uncertainty under incomplete vessel information.
             </p>
           </div>
         </details>
