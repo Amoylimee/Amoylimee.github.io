@@ -596,6 +596,18 @@ a {
   object-fit: cover;
 }
 
+.impact-figure {
+  margin: 0;
+}
+
+.impact-credit {
+  margin: 8px 0 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 11px;
+  line-height: 1.5;
+  color: var(--muted);
+}
+
 .presentation-image {
   aspect-ratio: 3 / 2;
 }
@@ -692,6 +704,7 @@ a {
     gap: 28px;
   }
 
+  .impact-figure,
   .impact-image {
     grid-row: 1;
   }
